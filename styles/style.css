@@ -213,6 +213,7 @@ body {
     width: 364.844px;
     padding: 28px;
     border-radius: 364.844px;
+    border: 22px solid red;
 }
 
 .best-offer-descript {
