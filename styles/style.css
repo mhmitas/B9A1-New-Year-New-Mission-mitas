@@ -1,6 +1,10 @@
+/* apply for all */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-
-/* shared styles */
