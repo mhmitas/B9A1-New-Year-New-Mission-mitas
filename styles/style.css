@@ -20,7 +20,7 @@ body {
 }
 
 .celebration h4 {
-    color: #FFF;
+    color: #ecebeb;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -28,7 +28,7 @@ body {
 }
 
 .celebration h3 {
-    color: #FFF;
+    color: #f0e3ea;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -51,6 +51,7 @@ body {
     color: #F00;
     text-align: center;
     font-size: 88px;
+    font-family: Inter;
     font-weight: 700;
     padding-bottom: 48px;
 }
@@ -108,7 +109,10 @@ body {
     font-size: 20px;
     font-weight: 700;
     border: none;
-    
+    background: none;
+    margin-top: 48px;
+    margin-left: 32px;
+
 }
 
 .midnight-party-content {
@@ -230,4 +234,63 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer styles */
+
+footer {
+    width: 100%;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.address p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    width: 375px;
+    height: 80px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.social-linls {
+    margin: 48px auto;
+    max-width: 25%;
+    gap: 24px;
+    display: flex;
+}
+
+.social-linls img {
+    width: 64px;
+    height: 64px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.copyright p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+hr {
+    width: 1320px;
+    color: #fff;
+    margin: 0 auto;
+    
 }
